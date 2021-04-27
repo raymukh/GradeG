@@ -1,0 +1,65 @@
+
+.select {
+  width: 20%;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #21afde;
+  box-shadow: 3px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.selectsubject {
+  background-color: #1c8adb;
+  color: #fff;
+}
+
+img {
+  width: 70px;
+  margin-top: -50px;
+}
+body,
+html {
+  height: 100%;
+}
+h1 {
+  color: #1c8adb;
+}
+.correct {
+  color: rgb(29, 197, 29);
+  font-size: 60px;
+}
+.incorrect {
+  color: rgb(255, 0, 0);
+  font-size: 60px;
+}
+form {
+  overflow: hidden;
+}
+input {
+  float: left;
+  clear: both;
+}
